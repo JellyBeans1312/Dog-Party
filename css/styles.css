@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+nav{
+  background: #75e2e6;
+  width: 100%;
+  height: 6rem;
+  background-image: url(../images/dog-icon.svg);
+  background-position: 2rem 1rem;
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  border-bottom: 4px solid #048eaa;
+}
+
+ul{
+  text-align: right;
+  font-size: 1.5rem;
+  padding-top: 1.25rem;
+}
+li{
+  display:inline-block;
+  font-weight: bold;
+
+}
+a{
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+a:hover{
+  background: #048eaa;
+}
+header {
+  background-image: url(../images/park.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+header background-image {
+  filter: brightness(50%);
+}
+.heading {
+  padding-top: 150px;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.title {
+  font-weight: bolder;
+}
+.area {
+  margin: 30px auto;
+}
+form {
+  display: block;
+  margin: 0 auto;
+  width: 25rem;
+}
+label {
+  text-align: left;
+  display: block;
+  font-size: 1.2rem;
+  color: #fff;
+}
+input {
+  margin: 4px auto;
+  width: 25rem;
+  height: 2.5rem;
+}
+.input-btn {
+  margin: 10px auto;
+  width: 25.35rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  background-color: #75e2e6;
+}
+.dog-circle {
+  border-radius: 90%;
+  border: 4px solid #048eaa;
+  height: 10.5rem;
+  margin: 0 2.25rem;
+}
+
+article {
+  display: inline-block;
+  width: 15.75rem;
+  padding: 3rem 7rem;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.dog-text {
+  font-size: 1rem;
+  font-weight: bold;
+  min-height: 16rem;
+}
+.dog-btn {
+  background-color: #048eaa;
+  color: #fff;
+  width: 15.85rem;
+  font-size: 1rem;
+  margin-top: 3rem;
+  height: 2.5rem;
+}
+footer {
+  height: 10rem;
+  background-color: #048eaa;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.footer-text {
+  text-align: center;
+  padding-top: 2rem;
+}
+.social-media {
+  margin-left: 38.5rem;
+  padding-top: 2rem;
+}
+.social-btn {
+  margin: 0 auto;
+  width: 2rem;
+  text-align: center;
+  padding: 0 .5rem;
+}
